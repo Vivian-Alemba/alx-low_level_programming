@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - block code
  *
  * Return: 0;
