@@ -2,7 +2,7 @@
 /**
  * main - block code
  *
- * Return : 0 always;
+ * Return : 0;
  */
 int main(void)
 {
