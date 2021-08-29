@@ -3,7 +3,7 @@
  */
 #include <stdio.h>
 /**
- * Main - block code
+ * main - block code
  *
  * Return: 0;
  */
