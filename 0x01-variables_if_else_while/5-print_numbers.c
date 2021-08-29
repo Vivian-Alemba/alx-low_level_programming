@@ -1,3 +1,6 @@
+/*
+ * Using printf function to display numbers
+ */
 #include <stdio.h>
 /**
  * Main - block code
