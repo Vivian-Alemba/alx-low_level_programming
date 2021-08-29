@@ -1,16 +1,20 @@
+/*
+ * Using the putchar function to print alphabet on screen
+ */
 #include<stdio.h>
 /**
- * main-block code
- * Return :0
+ * main - block code
+ *putchar function displays alphabet on screen
+ * Return:0;
  */
-int main (void)
+int main(void)
 {
-	int ch;
+	int cha;
 
-	for (ch='a'; ch<='z'; ch++)
+	for (cha = 'a'; cha <= 'z'; cha++)
 	{
-		putchar (ch);
-		
+		putchar(cha);
+
 	}
 	return (0);
 }
