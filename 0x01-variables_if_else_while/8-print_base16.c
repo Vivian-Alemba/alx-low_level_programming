@@ -1,11 +1,12 @@
 /*
  * Using putchar function to display hexadecimal
  */
+
 #include <stdio.h>
+
 /**
  * main - block code
- *
- * return: 0;
+ * Return: 0.
  */
 int main(void)
 {
