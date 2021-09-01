@@ -3,15 +3,14 @@
 #include <ctype.h>
 
 /**
- * int _islower - a function that checks for lowercase character.
+ * _islower - a function that checks for lowercase character.
+ * @c: The character to be print
  *
- * Return: 1 if c is lowercase
- * Return: 0 otherwise
+ * Return: 1 if c is lowercase otherwise (0);
  */
 int _islower(int c)
 {
-	
-	if(islower(c))
+	if (islower(c))
 	{
 		return (1);
 	}
