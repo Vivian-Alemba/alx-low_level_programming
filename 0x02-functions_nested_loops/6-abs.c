@@ -3,14 +3,15 @@
 
 /**
  * _abs - a function that computes the absolute value of integer
+ *@n: Shows the character to be printed
  *
- * return: 0;
+ * Return: (n);
  */
 int _abs(int n)
 {
-	if(n <0)
+	if (n < 0)
 	{
-		n=n * -1;
+		n = n * -1;
 	}
 	return (n);
 
