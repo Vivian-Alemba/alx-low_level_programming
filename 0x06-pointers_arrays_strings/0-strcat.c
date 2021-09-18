@@ -11,12 +11,18 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *result = malloc(strlen(dest) + strlen(src) + 1);
+	int i, j;
 
-	strcpy(result, dest);
-	
-	strcat(result, src);
-
-	return (result);
-
+	j = 0;
+	while (*(dest + j))
+	{
+		j++;
+	}
+	for (i = 0; *(src + i) != 0; i++)
+	{
+		*(dest + j) = *(src + i);
+		j++;
+	}
+	*(dest + j) = '\0';
+	return (dest);
 }
