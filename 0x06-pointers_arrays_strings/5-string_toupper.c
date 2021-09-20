@@ -4,10 +4,11 @@
 
 /**
  * string_toupper - changes all lowercase letters of string to uppercase
+ * @ptr: a pointer to the character string
  *
  * Return: nothing
  */
-char *string_toupper(char * ptr)
+char *string_toupper(char *ptr)
 {
 	char *s;
 
@@ -18,6 +19,6 @@ char *string_toupper(char * ptr)
 			*s = toupper(*s);
 		}
 	}
-	return ptr;
+	return (ptr);
 
 }
